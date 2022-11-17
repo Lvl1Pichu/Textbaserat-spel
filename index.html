@@ -5,15 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="game.js"></script>
 </head>
 <body>
     <div id="images"></div>
     <div id="text-show"></div>
 
-    <div>
+    <div id="playerinterraction">
         <input id="input" onkeydown="submitCharacterName(this)" placeholder="Please type the name of your character."
+        <div class="container">
+            <button id="next">Next</button>
+            <button id="reset">Reset</button>
+        </div>
     </div>
 
-    <button>Next</button>
 </body>
 </html>

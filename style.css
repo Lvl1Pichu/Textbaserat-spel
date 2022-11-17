@@ -11,3 +11,9 @@ input {
     font-size: 1em;
     margin-top:15px;
   }
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
