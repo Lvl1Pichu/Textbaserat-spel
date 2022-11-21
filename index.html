@@ -9,16 +9,13 @@
     <script defer src="game.js"></script>
 </head>
 <body>
-    <div id="images"></div>
-    <div id="text-show"></div>
-
-    <div id="playerinterraction">
-        <input id="input" onkeydown="submitCharacterName(this)" placeholder="Please type the name of your character."
-        <div class="container">
-            <button id="next">Next</button>
-            <button id="reset">Reset</button>
-        </div>
+    <div id="wrapper">
+        <form id="theAdventure">
+            <p></p>
+            <fieldset></fieldset>
+            <button id="resetButton" class="reset">Restart</button>
+            <a id="continueButton" class="continue" href="javascript:void(0);">Continue</a>
+        </form>
     </div>
-
 </body>
 </html>
