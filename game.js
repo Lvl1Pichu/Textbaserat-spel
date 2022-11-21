@@ -1,12 +1,12 @@
-let story = 0;
-let form = document.getElementById("theAdventure");
-let submit = document.getElementById("continueButton");
-let reset = document.getElementById("resetButton");
-let answer = "";
+var story = 0;
+var form = document.getElementById("theAdventure");
+var submit = document.getElementById("continueButton");
+var reset = document.getElementById("resetButton");
+var answer = "";
 
 
 
-var story_telling = {
+var storyTelling = {
     "start": { //beginning of the story
       "question": "You set out on a brand new adventure, where would you like to go?",
       "answers": {
@@ -99,7 +99,7 @@ function populateForm(story){
     let text = "";
     for (let prop in currentStory["answers"]){
         if(currentStory["answers"].hasOwnProperty(prop)){
-        text += '<label><input type="radio" name="answer" value="' + prop + '"/><span>' + current_story['answers'][prop] + '</span></label>';
+        text += '<label><input type="radio" name="answer" value="' + prop + '"/><span>' + currentStory['answers'][prop] + '</span></label>';
         }
     }
     form.querySelector("p").innerHTML = currentStory.question;
