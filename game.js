@@ -35,3 +35,19 @@ submit.addEventListener("mouseup"), function(){
         console.log("story time!")
     }
 }
+
+//Reset button
+function resetForm(){
+    document.getElementById("theAdventure").reset();
+}
+
+// Generate answers from story
+function populateForm(story){
+    let currentStory = storyTelling[story];
+    let text = "";
+    for (let prop in currentStory["answers"]){
+        if(currentStory["answers"].hasOwnProperty(prop)){"
+        text += '<label><input type="radio" name="answer" value="' + prop + '"/><span>' + current_story['answers'][prop] + '</span></label>';
+        }
+    }
+}
