@@ -8,7 +8,7 @@ let answer = "";
 
 let storyTelling = {
     "start": {
-        "question": "You set out on a brand new adventure, where would you like to go?";
+        "question": "You set out on a brand new adventure, where would you like to go?",
         "answers": {
             "a": "Forest",
             "b": "Cave",
