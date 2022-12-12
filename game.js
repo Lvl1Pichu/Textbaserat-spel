@@ -7,73 +7,73 @@
 
 
     var storyTelling = {
-        "start": { //beginning of the story
-        "question": "You set out on a brand new adventure, where would you like to go?",
-        "answers": {
+        'start': { //beginning of the story
+        'question': "You set out on a brand new adventure, where would you like to go?",
+        'answers': {
             "a": "Forest",
             "b": "Cave",
             "c": "Mountain",
         }
         },
         // Forest Path 
-        "1_a": {
-        "question": "You decide to go to the forest, and you meet a kind fairy. Do you...",
-        "answers": {
-            "a": "Ask her if she wants to join you on your adventure.",
-            "b": "Swat her away like a fly.",
-            "c": "Wave at her and continue on your way."
+        '1_a': {
+        'question': "You decide to go to the forest, and you meet a kind fairy. Do you...",
+        'answers': {
+            'a': "Ask her if she wants to join you on your adventure.",
+            'b': "Swat her away like a fly.",
+            'c': "Wave at her and continue on your way."
         }
         },
     
-        "2_a": {
-        "question": "The fairy glady accepts your offer and you two have a wonderful day! The End.",
+        '2_a': {
+        'question': "The fairy glady accepts your offer and you two have a wonderful day! The End.",
         },
-        "2_b": {
-        "question": "The fairy turns into an angry lion and chases you out of the forest. The End.",
+        '2_b': {
+        'question': "The fairy turns into an angry lion and chases you out of the forest. The End.",
         },
-        "2_c": {
-        "question": "The fairy gives you some awesome new shoes. The End.",
+        '2_c': {
+        'question': "The fairy gives you some awesome new shoes. The End.",
         },
     
         // Cave Path
     
-        "1_b": {
-        "question": "You go to the caves a run into a terrifying minotaur. What do you do?",
-        "answers": {
-            "d": "Run away screaming.",
-            "e": "Stand your ground and fight!",
-            "f": "Ask them if they want to be in your band.",
+        '1_b': {
+        'question': "You go to the caves a run into a terrifying minotaur. What do you do?",
+        'answers': {
+            'd': "Run away screaming.",
+            'e': "Stand your ground and fight!",
+            'f': "Ask them if they want to be in your band.",
         }
         },
-        "2_d": {
-        "question": "The minotaur stares at you in confusion as you run all the way home. The End.",
+        '2_d': {
+        'question': "The minotaur stares at you in confusion as you run all the way home. The End.",
         },
-        "2_e": {
-        "question": "You defeat the minotaur and they turn into a cute puppy. The End.",
+        '2_e': {
+        'question': "You defeat the minotaur and they turn into a cute puppy. The End.",
         },
-        "2_f": {
-        "question": "The minotaur eagerly agrees, and together you start a funk revival band called The Groovy Hooves. The End.",
-        "end": "the end"
+        '2_f': {
+        'question': "The minotaur eagerly agrees, and together you start a funk revival band called The Groovy Hooves. The End.",
+        'end': "the end"
         },
     
         // Mountain Path
     
-        "1_c": {
-        "question": "You decide to take the mountain path and meet a magic goat. What do you do?",
-        "answers": {
-            "g": "Challenge the goat to a fiddle competition",
-            "h": "Teach the goat how to surf.",
-            "i": "Name the goat Gregory and become best friends.",
+        '1_c': {
+        'question': "You decide to take the mountain path and meet a magic goat. What do you do?",
+        'answers': {
+            'g': "Challenge the goat to a fiddle competition",
+            'h': "Teach the goat how to surf.",
+            'i': "Name the goat Gregory and become best friends.",
         }
         },
-        "2_g": {
+        '2_g': {
         "question": "You become the national fiddle playing champion. The End.",
         },
-        "2_h": {
-        "question": "The goat becomes the best surfer in the universe. The End.",
+        '2_h': {
+        'question': "The goat becomes the best surfer in the universe. The End.",
         },
-        "2_i": {
-        "question": "You and Gregory travel the world together. The End.",
+        '2_i': {
+        'question': "You and Gregory travel the world together. The End.",
         },
         
     };
@@ -106,4 +106,4 @@
         form.querySelector("fieldset").innerHTML = text;
     }
 
-    populateForm("start");
+    populateForm('start');
